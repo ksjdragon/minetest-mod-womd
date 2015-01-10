@@ -22,7 +22,7 @@ minetest.register_abm({
 })
 
 minetest.register_abm({
-	nodenames = {"default:air"},
+	nodenames = {"air"},
 	neighbors = {"womd:radioactive_air"},
 	interval = 15.0,
 	chance = 10,

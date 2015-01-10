@@ -13,11 +13,11 @@ minetest.register_node("womd:radioactive_air", {
 
 minetest.register_abm({
 	nodenames = {"womd:radioactive_air"},
-	neighbors = {"default:air"},
+	neighbors = {"air"},
 	interval = 10.0,
 	chance = 10,
 	action = function(pos, node, active_object_count, active_object_count_wider)
-		minetest.set_node(pos, {name = "default:air"})
+		minetest.set_node(pos, {name = "air"})
 	end,
 })
 
